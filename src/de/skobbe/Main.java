@@ -11,7 +11,7 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
+        getCommand("heal").setExecutor(new HealCommand());
     }
 
     public static void main(String[] args) {

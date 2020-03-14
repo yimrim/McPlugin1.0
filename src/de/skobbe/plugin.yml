@@ -1,0 +1,7 @@
+name: Plugin
+version: 1.0
+main: de.skoppe.Main
+
+commands:
+  heal:
+    description: Dieses Kommando heilt dich!
