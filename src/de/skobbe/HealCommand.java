@@ -11,7 +11,7 @@ public class HealCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String s, String[] strings) {
         if(sender instanceof Player){
             Player player = (Player)sender;
-            player.setHealthScale(20);
+            player.setHealth(20);
             player.setFoodLevel(20);
             player.sendMessage("DU wurdest geheilt");
         }else{
