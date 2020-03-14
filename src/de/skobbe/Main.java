@@ -1,8 +1,22 @@
 package de.skobbe;
 
-public class Main {
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Main extends JavaPlugin {
+
+    @Override
+    public void onDisable() {
+
+    }
+
+    @Override
+    public void onEnable() {
+
+    }
 
     public static void main(String[] args) {
-        System.out.println("hello world");
+
+
+
     }
 }
