@@ -1,6 +1,6 @@
 name: Plugin
 version: 1.0
-main: de.skoppe.Main
+main: de.skobbe.Main
 
 commands:
   heal:
