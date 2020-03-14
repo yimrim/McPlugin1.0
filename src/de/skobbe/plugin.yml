@@ -5,3 +5,5 @@ main: de.skobbe.Main
 commands:
    heal:
       description: Dieses Kommando heilt dich!
+   rename:
+      description: Dieses Kommando benennt dich um!
