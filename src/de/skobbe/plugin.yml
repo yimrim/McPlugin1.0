@@ -3,5 +3,5 @@ version: 1.0
 main: de.skobbe.Main
 
 commands:
-  heal:
-    description: Dieses Kommando heilt dich!
+   heal:
+      description: Dieses Kommando heilt dich!
