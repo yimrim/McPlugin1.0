@@ -14,6 +14,7 @@ public class Main extends JavaPlugin {
         getCommand("heal").setExecutor(new HealCommand());
         getCommand("rename").setExecutor(new RenameCommand());
         getCommand("starterkit").setExecutor(new StarterKitCommand());
+        getCommand("lightning").setExecutor(new LightningCommand());
     }
 
     public static void main(String[] args) {

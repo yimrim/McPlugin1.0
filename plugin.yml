@@ -9,3 +9,5 @@ commands:
       description: Dieses Kommando benennt dich um!
    starterkit:
       description: Dieses Kommando gibt dir ein Starterkit!
+   lightning:
+      description: Dieses Kommando lässt einen Blitz auf dem Spieler schlagen
