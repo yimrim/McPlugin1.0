@@ -15,6 +15,7 @@ public class Main extends JavaPlugin {
         getCommand("rename").setExecutor(new RenameCommand());
         getCommand("starterkit").setExecutor(new StarterKitCommand());
         getCommand("lightning").setExecutor(new LightningCommand());
+        getCommand("navigate").setExecutor(new NavigationCommand());
     }
 
     public static void main(String[] args) {

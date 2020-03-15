@@ -11,3 +11,5 @@ commands:
       description: Dieses Kommando gibt dir ein Starterkit!
    lightning:
       description: Dieses Kommando lässt einen Blitz auf dem Spieler schlagen
+   navigate:
+      description: Dieses Kommando lässt dich einen Spieler verfolgen
