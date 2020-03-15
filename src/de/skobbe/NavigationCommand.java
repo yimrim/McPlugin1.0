@@ -17,7 +17,7 @@ public class NavigationCommand implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
             player.getInventory().addItem(new ItemStack(Material.COMPASS));
-           while (strings[1]=="on") {
+           while (strings[1].equals("on")) {
                Player toFollowPlayer = Bukkit.getPlayer(strings[0]);
                if (toFollowPlayer != null) {
                    player.setCompassTarget(toFollowPlayer.getLocation());
