@@ -24,6 +24,7 @@ public class RenameCommand implements CommandExecutor {
             Player toRenamePlayer = Bukkit.getPlayer(strings[0]);
             toRenamePlayer.setPlayerListName(strings[1]);
             toRenamePlayer.setDisplayName(strings[1]);
+            toRenamePlayer.setDisplayName(strings[1]);
         } else {
             sender.sendMessage("Dieses Kommand darf du nur als Spieler benutzen");
         }
