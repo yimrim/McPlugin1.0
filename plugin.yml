@@ -5,5 +5,7 @@ main: de.skobbe.Main
 commands:
    heal:
       description: Dieses Kommando heilt dich!
-   editName:
+   editname:
       description: Dieses Kommando benennt dich um!
+   starterkit:
+      description: Dieses Kommando gibt dir ein Starterkit!

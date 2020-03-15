@@ -12,11 +12,11 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         getCommand("heal").setExecutor(new HealCommand());
-        getCommand("editName").setExecutor(new RenameCommand());
+        getCommand("editname").setExecutor(new RenameCommand());
+        getCommand("starterkit").setExecutor(new StarterKitCommand());
     }
 
     public static void main(String[] args) {
-
 
 
     }
