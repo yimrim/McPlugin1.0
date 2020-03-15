@@ -20,17 +20,13 @@ public class RenameCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String s, String[] strings) {
         if (sender instanceof Player) {
             Player player = (Player) sender;
-            player.sendMessage(strings[0]+" heißt nun "+strings[1]);
+            player.sendMessage(strings[0] + " heißt nun " + strings[1]);
             Player toRenamePlayer = Bukkit.getPlayer(strings[0]);
-           // toRenamePlayer.setCustomName(strings[1]);
             toRenamePlayer.setPlayerListName(strings[1]);
             toRenamePlayer.setDisplayName(strings[1]);
-
-
         } else {
             sender.sendMessage("Dieses Kommand darf du nur als Spieler benutzen");
         }
-
 
         return false;
     }
