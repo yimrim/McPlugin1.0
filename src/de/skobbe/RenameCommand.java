@@ -11,7 +11,6 @@ public class RenameCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String s, String[] strings) {
         if (sender instanceof Player) {
             Player player = (Player) sender;
-            //player.setDisplayName(strings[0]);
             player.sendMessage(sender.getName()+" wurde in "+strings[0]+" umgenannt");
             player.setCustomName(strings[0]);
         } else {
