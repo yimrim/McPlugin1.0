@@ -15,7 +15,7 @@ public class StarterKitCommand implements CommandExecutor {
             Player player = (Player) sender;
             player.getInventory().clear();
             player.getInventory().setItem(0, new ItemStack(Material.DIAMOND_SWORD));
-
+            //player.setCustomName("");
 
         }
         return false;
