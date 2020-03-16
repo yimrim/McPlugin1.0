@@ -17,12 +17,10 @@ public class NavigationCommand implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
             player.getInventory().addItem(new ItemStack(Material.COMPASS));
-           while (strings[1]=="on") {
-               Player toFollowPlayer = Bukkit.getPlayer(strings[0]);
-               if (toFollowPlayer != null) {
-                   player.setCompassTarget(toFollowPlayer.getLocation());
-               }
-           }
+            Player toFollowPlayer = Bukkit.getPlayer(strings[0]);
+            if (toFollowPlayer != null) {
+                player.setCompassTarget(toFollowPlayer.getLocation());
+            }
         } else {
             sender.sendMessage("Dieses Kommand darf du nur als Spieler benutzen");
         }
