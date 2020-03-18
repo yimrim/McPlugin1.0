@@ -16,8 +16,8 @@ public class LightningCommand implements CommandExecutor {
             World world = null;
             if (toStrikePlayer != null) {
                 world = toStrikePlayer.getWorld();
+                world.strikeLightning(toStrikePlayer.getLocation());
             }
-            world.strikeLightning(toStrikePlayer.getLocation());
         } else {
             sender.sendMessage("Dieses Kommand darf du nur als Spieler benutzen");
         }
